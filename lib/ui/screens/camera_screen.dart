@@ -21,6 +21,7 @@ import '../../domain/models/card_model.dart';
 import '../../domain/models/settings_model.dart';
 import '../widgets/card_grid.dart';
 import '../widgets/gaze_cursor.dart';
+import 'sos_detail_screen.dart';
 
 /// ✅ 누락되어 빌드 에러가 났던 포커스 링 위젯
 class FocusRing extends StatelessWidget {

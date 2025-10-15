@@ -5,10 +5,10 @@
 웹/권한 거부/에뮬레이터 환경에서는 터치 제스처로 **시선을 모의 입력(Mock)** 할 수 있습니다.
 
 <p align="center">
-  <img src="assets/1.png" width="45%" style="border-radius:12px; margin:5px;"/>
-  <img src="assets/2.png" width="45%" style="border-radius:12px; margin:5px;"/><br/>
-  <img src="assets/3.png" width="45%" style="border-radius:12px; margin:5px;"/>
-  <img src="assets/4.png" width="45%" style="border-radius:12px; margin:5px;"/>
+  <img src="assets/boards/1.png" width="45%" style="border-radius:12px; margin:5px;"/>
+  <img src="assets/boards/2.png" width="45%" style="border-radius:12px; margin:5px;"/><br/>
+  <img src="assets/boards/3.png" width="45%" style="border-radius:12px; margin:5px;"/>
+  <img src="assets/boards/4.png" width="45%" style="border-radius:12px; margin:5px;"/>
 </p>
 
 ---

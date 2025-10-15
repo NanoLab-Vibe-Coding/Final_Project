@@ -1,4 +1,4 @@
-# 🧠 Ask Eye (gaze_tts_app)
+# Ask Eye (gaze_tts_app)
 
 전면 카메라의 **시선 추정(Gaze Tracking)** 을 활용해 버튼을 응시하여 문장을 발화(TTS)하거나  
 긴급(SOS) 동작을 수행하는 **접근성 보조 앱**입니다.  
@@ -27,7 +27,7 @@
 
 ---
 
-## 💡 개발 동기
+## 개발 동기
 청각·언어 장애로 인해 발성이 어렵거나 손 사용이 제한된 사용자가  
 시선만으로 빠르고 직관적인 의사 표현을 할 수 있도록 설계되었습니다.
 
@@ -40,7 +40,7 @@
 
 ---
 
-## ⚙️ 핵심 기능
+## 핵심 기능
 | 분류 | 설명 |
 |------|------|
 | **시선 추정** | Google ML Kit 얼굴 검출 기반 시선 포인트 계산 (안드로이드) |
@@ -55,7 +55,7 @@
 
 ---
 
-## 🧩 기술 스택
+## 기술 스택
 - **Framework**: Flutter (Dart, Material 3)
 - **ML / Camera**: `google_mlkit_face_detection`, `camera`
 - **TTS / Vibration**: `flutter_tts`, `vibration`
@@ -66,14 +66,14 @@
 
 ---
 
-## 🧑‍💻 개발 환경
+## 개발 환경
 - **IDE**: Visual Studio Code / Android Studio  
 - **Flutter SDK**: 3.x 이상  
 - **테스트 기기**: Pixel 9 (Android 15 Emulator)
 
 ---
 
-## 📁 프로젝트 구조
+## 프로젝트 구조
 ```plaintext
 final/
 ├─ lib/
@@ -99,14 +99,14 @@ final/
 
 ---
 
-## 🚀 설치 및 실행
+## 설치 및 실행
 
-### 1️⃣ 의존성 설치
+### 의존성 설치
 ```bash
 flutter pub get
 ```
 
-### 2️⃣ 실행
+### 실행
 ```bash
 # Android (권장)
 flutter run -d android
@@ -118,14 +118,14 @@ flutter run -d ios
 flutter run -d chrome
 ```
 
-### 3️⃣ 빌드
+### 빌드
 ```bash
 flutter build apk   # 또는 ios / web / windows / macos
 ```
 
 ---
 
-## 🔐 권한 및 플랫폼 동작
+## 권한 및 플랫폼 동작
 | 플랫폼 | 동작 방식 |
 |--------|------------|
 | **Android** | ML Kit + Camera 이미지 스트림으로 on-device 시선 추정 |
@@ -138,34 +138,34 @@ flutter build apk   # 또는 ios / web / windows / macos
 
 ---
 
-## 🎯 사용 방법
+## 사용 방법
 
-### 🔸 첫 실행
+### 첫 실행
 - 카메라 및 전화 권한을 허용  
 - 거부 시 Mock Gaze 자동 활성화 (음성 안내)
 
-### 🔸 보정(Calibration)
+### 보정(Calibration)
 - 3×3 점을 순차 응시 → 보정 행렬 자동 계산 후 저장
 
-### 🔸 메인 화면
+### 메인 화면
 - 시선 커서가 카드에 머물면 진행 링이 차오르고  
   완료 시 TTS 발화 및 피드백 제공
 
-### 🔸 SOS 모드
+### SOS 모드
 - 112/119/사용자 지정 버튼 응시 시  
   진동 + 음성 안내 후 통화 또는 문자 전송 시도
 
-### 🔸 설정 화면
+### 설정 화면
 - 응시 시간, 커서 크기, 고대비, 글자 크기,  
   TTS 속도/피치, Mock Gaze 여부, 실시간 읽어주기 등 설정
 
-### 🔸 보드 편집기
+### 보드 편집기
 - 카드 추가/수정/삭제 가능  
 - `SharedPreferences` 에 JSON 형태로 저장됨
 
 ---
 
-## 🧪 테스트 및 빌드
+## 테스트 및 빌드
 ```bash
 flutter test        # 단위/위젯 테스트
 dart format .       # 코드 포맷 정리
@@ -177,7 +177,7 @@ flutter analyze     # 린트 검사
 
 ---
 
-## 🧩 Gitignore 참고
+## Gitignore 참고
 Flutter 표준 `.gitignore` 기반:
 - `/build/`, `.dart_tool/`, `.pub-cache/`, `.idea/`, `.DS_Store`  
 - 플랫폼 빌드 산출물, IDE 메타, 임시 파일 등 제외  

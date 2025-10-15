@@ -1,0 +1,20 @@
+{
+  "locale": "ko",
+  "pages": [
+    {
+      "title": "기본",
+      "grid": "3x3",
+      "cards": [
+        {"id":"hello","label":"안녕하세요","speak":"안녕하세요."},
+        {"id":"help","label":"도움이 필요해요","speak":"도움이 필요해요."},
+        {"id":"water","label":"물","speak":"물을 주세요."},
+        {"id":"toilet","label":"화장실","speak":"화장실에 가고 싶어요."},
+        {"id":"food","label":"밥","speak":"밥을 주세요."},
+        {"id":"pain","label":"아파요","speak":"어디가 아파요."},
+        {"id":"hot","label":"더워요","speak":"더워요. 시원하게 해주세요."},
+        {"id":"cold","label":"추워요","speak":"추워요. 따뜻하게 해주세요."},
+        {"id":"sos","label":"긴급 도움","speak":"도움을 요청합니다.","sos":true,"call":"112","sms":"긴급 도움이 필요합니다. 위치: {location}"}
+      ]
+    }
+  ]
+}

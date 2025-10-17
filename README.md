@@ -13,7 +13,7 @@
 
 ---
 
-## 📑 목차
+## 목차
 - [개발 동기](#-개발-동기)
 - [핵심 기능](#-핵심-기능)
 - [기술 스택](#-기술-스택)
@@ -56,13 +56,51 @@
 ---
 
 ## 기술 스택
-- **Framework**: Flutter (Dart, Material 3)
-- **ML / Camera**: `google_mlkit_face_detection`, `camera`
-- **TTS / Vibration**: `flutter_tts`, `vibration`
-- **Device / Permissions**: `url_launcher`, `permission_handler`
-- **Storage / DB**: `shared_preferences`, `sqflite`
-- **Localization**: `intl`
-- **UI Theme / State**: 커스텀 다크모드 + 접근성 테마
+<table>
+  <tr>
+    <td align="center"><strong>Framework</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Material_3-4285F4?style=for-the-badge&logo=materialdesign&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>ML / Camera</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Google_ML_Kit-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Camera-000000?style=for-the-badge&logo=camera&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>TTS / Vibration</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/flutter_tts-FFB300?style=for-the-badge&logo=soundcharts&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vibration-9C27B0?style=for-the-badge&logo=android&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Device / Permissions</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/url_launcher-03A9F4?style=for-the-badge&logo=linktree&logoColor=white"/>
+      <img src="https://img.shields.io/badge/permission_handler-4CAF50?style=for-the-badge&logo=lock&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Storage / DB</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/shared_preferences-607D8B?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+      <img src="https://img.shields.io/badge/sqflite-795548?style=for-the-badge&logo=sqlite&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Localization / UI</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/intl-FF7043?style=for-the-badge&logo=googletranslate&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Custom_Accessibility_Theme-673AB7?style=for-the-badge&logo=materialdesign&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
